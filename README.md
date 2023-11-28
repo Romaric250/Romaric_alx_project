@@ -1,2 +1,2 @@
 # Romaric_alx_project
-The alx portfoio project
+The alx portfolio project
