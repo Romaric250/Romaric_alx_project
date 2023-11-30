@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>E-commerce Hamburger App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1>Welcome to our Hamburger Shop</h1>
+
+    <div id="burger-container"></div>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="burger-name"></h2>
+        <p id="burger-details"></p>
+        <div id="form-container">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" min="1" max="10" />
+          <button id="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="cart">
+      <h2>Your Cart</h2>
+      <ul id="cart-items"></ul>
+      <button id="checkout">Checkout</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
